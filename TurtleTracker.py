@@ -1,10 +1,8 @@
 #Description: Parses a line of ARGOS tracking data
 # 
-# Create a variable pointing to the file with no header
-filename = "SaraNoHeaders.txt"
 
-#Load in read-only file:
-fileObj = open(filename,'r')
+#Load in the selected file in read-only mode:
+fileObj = open('data/SaraNoHeaders.txt','r')
 
 #read in all lines:
 lineslist = fileObj.readlines()
